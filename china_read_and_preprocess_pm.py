@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import numpy as np
 import pandas as pd
 import os
@@ -245,6 +244,4 @@ def split_data_to_train_eval(df_features, df_labels):
     df_labels_eval = df_labels.xs(dates_eval, level='측정일시', drop_level=False)
 
     return df_features_train, df_labels_train, df_features_eval, df_labels_eval
-=======
 
->>>>>>> origin/master

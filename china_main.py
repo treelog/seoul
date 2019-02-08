@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import time
 import pandas as pd
 
@@ -138,6 +137,4 @@ def main(unused_argv):
 
 if __name__ == '__main__':
     tf.app.run()
-=======
 
->>>>>>> origin/master
